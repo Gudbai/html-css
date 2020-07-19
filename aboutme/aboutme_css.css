@@ -1,0 +1,86 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+h1 {
+    font : bold 35px Calibri;
+}
+
+h2 {
+    font : bold 25px Calibri;
+}
+
+header, section, footer, nav, article, hgroup {
+    display:block;
+}
+
+body {
+    text-align:center;
+}
+
+#entireThing {
+    border : 2px solid black;
+    width : 1500px;
+    margin : 30px auto;
+    text-align : left; 
+}
+
+#theHeader {
+    border : 1px solid black;
+    background : red;
+    padding : 20px;
+}
+
+#theNavBar {
+    background : #363232;
+    color : white;
+}
+
+#theNavBar li {
+    display : inline-block;
+    list-style : none;
+    padding : 15px;
+    font : bold 15px Times;
+}
+
+#theSection {
+    float : left;
+    width : 800px;
+    margin : 30px;
+}
+
+#theNews {
+    float : left;
+    margin : 0px 0px 0px 276px;
+    background : red;
+    color : #ffffff;
+}
+
+#theFooter {
+    clear : both;
+    text-align : center;
+    padding : 20px;
+    border-top : 2px solid black;
+}
+
+article {
+    background : #999999;
+    border : 1px solid black;
+    padding : 30px;
+    margin-bottom : 20px;
+}
+
+article footer {
+    text-align : right;
+}
+
+a {
+    color : white;
+    text-decoration : none;
+}
+
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
