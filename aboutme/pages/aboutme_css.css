@@ -45,7 +45,6 @@ body {
 }
 
 #theNavBar {
-    border: 1px solid black;
     background: gray;
     color: white;
 }
@@ -55,6 +54,10 @@ body {
     list-style: none;
     padding: 5px;
     font: bold 17px Calibri;
+}
+
+#theNavBar li:hover {
+    background-color:black;
 }
 
 #entireThing2 {
@@ -75,7 +78,8 @@ body {
     background: red;
     color: #ffffff;
     text-align: left;
-    height: 76px;
+    width: 400px;
+    height: 120px;
 }
 
 #theFooter {
