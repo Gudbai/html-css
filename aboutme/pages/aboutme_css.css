@@ -1,78 +1,83 @@
-*{
-    margin : 0;
-    padding : 0;
+* {
+    margin : 0px;
+    padding : 0px;
 }
 
 h1 {
-    font : bold 35px Calibri;
+    font : bold 30px Calibri;
 }
 
 h2 {
-    font : bold 25px Calibri;
+    font : bold 20px Calibri;
 }
 
-header, section, footer, nav, article, hgroup {
-    display:block;
+h3 {
+    font : bold 17px Calibri;
+}
+
+header, section, footer, aside, article, hgroup {
+    display : block;
 }
 
 body {
-    text-align:center;
+    width : 100%;
+    display : flex;
+    justify-content : center;
 }
 
 #entireThing {
-    border : 2px solid black;
-    width : 1500px;
-    margin : 30px auto;
-    text-align : left; 
+    max-width : 1000px;
+    margin : 20px 0px;
+    display : flex;
+    flex-direction : column;
+    flex : 1;
 }
 
 #theHeader {
-    border : 1px solid black;
     background : red;
+    border : 3px solid black;
     padding : 20px;
 }
 
 #theNavBar {
-    background : #363232;
+    border : 1px solid black;
+    background : gray;
     color : white;
 }
 
 #theNavBar li {
     display : inline-block;
     list-style : none;
-    padding : 15px;
-    font : bold 15px Times;
+    padding : 5px;
+    font : bold 17px Calibri;
+}
+
+#entireThing2 {
+    display : flex;
+    flex-direction: row;
 }
 
 #theSection {
-    float : left;
-    width : 800px;
-    margin : 30px;
+    border : 1px solid black;
+    background : #616161;
+    flex : 1;
+    margin : 20px 20px 0px 0px;
+    padding : 20px;
 }
 
 #theNews {
-    float : left;
-    margin : 0px 0px 0px 276px;
+    margin : 20px 0px 70px 0px;
     background : red;
     color : #ffffff;
+    text-align : left;
+    height: 76px;
 }
 
 #theFooter {
-    clear : both;
     text-align : center;
     padding : 20px;
     border-top : 2px solid black;
-}
-
-article {
-    background : #999999;
-    border : 1px solid black;
-    padding : 30px;
-    margin-bottom : 20px;
-}
-
-article footer {
-    text-align : right;
+    color : white;
 }
 
 a {
