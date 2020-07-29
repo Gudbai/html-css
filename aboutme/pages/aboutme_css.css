@@ -1,91 +1,98 @@
 * {
-    margin : 0px;
-    padding : 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
-    font : bold 30px Calibri;
+    font: bold 30px Calibri;
 }
 
 h2 {
-    font : bold 20px Calibri;
+    font: bold 20px Calibri;
 }
 
 h3 {
-    font : bold 17px Calibri;
+    font: bold 17px Calibri;
 }
 
-header, section, footer, aside, article, hgroup {
-    display : block;
+header,
+section,
+footer,
+aside,
+article,
+hgroup {
+    display: block;
 }
 
 body {
-    width : 100%;
-    display : flex;
-    justify-content : center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #entireThing {
-    max-width : 1000px;
-    margin : 20px 0px;
-    display : flex;
-    flex-direction : column;
-    flex : 1;
+    max-width: 1000px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 #theHeader {
-    background : red;
-    border : 3px solid black;
-    padding : 20px;
+    background: red;
+    border: 3px solid black;
+    padding: 20px;
 }
 
 #theNavBar {
-    border : 1px solid black;
-    background : gray;
-    color : white;
+    border: 1px solid black;
+    background: gray;
+    color: white;
 }
 
 #theNavBar li {
-    display : inline-block;
-    list-style : none;
-    padding : 5px;
-    font : bold 17px Calibri;
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 17px Calibri;
 }
 
 #entireThing2 {
-    display : flex;
+    display: flex;
     flex-direction: row;
 }
 
 #theSection {
-    border : 1px solid black;
-    background : #616161;
-    flex : 1;
-    margin : 20px 20px 0px 0px;
-    padding : 20px;
+    border: 1px solid black;
+    background: #616161;
+    flex: 1;
+    margin: 20px 20px 0px 0px;
+    padding: 20px;
 }
 
 #theNews {
-    margin : 20px 0px 70px 0px;
-    background : red;
-    color : #ffffff;
-    text-align : left;
+    margin: 20px 0px 70px 0px;
+    background: red;
+    color: #ffffff;
+    text-align: left;
     height: 76px;
 }
 
 #theFooter {
-    text-align : center;
-    padding : 20px;
-    border-top : 2px solid black;
-    color : white;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid black;
+    color: white;
 }
 
 a {
-    color : white;
-    text-decoration : none;
+    color: white;
+    text-decoration: none;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 3px solid black;
     border-collapse: collapse;
 }
