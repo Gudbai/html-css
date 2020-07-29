@@ -1,40 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tentangbuah.com - Kontak !</title>
-</head>
-<body>
-    <h1>tentangbuah.com</h1>
-    <img src = "../images/buah.png" width = "100" alt = "" />
-    <ul>
-        <li><a href = "../index.html">Home</a></li>
-        <li>
-            Buah
-            <ul>
-                <li><a href ="pages/apel.html">Apel</a></li>
-                <li><a href ="pages/jeruk.html">Jeruk</a></li>
-                <li><a href ="pages/mangga.html">Mangga</a></li>
-                <li><a href ="pages/pisang.html">Pisang</a></li>
-            </ul>
-        </li>
-        <li><a href = "#">Kontak</a></li>
-    </ul>
-    <hr />
-
-    <fieldset>
-        <legend>Informasi Pemesanan</legend>
-        <label for = "nama">Nama : </label>
-        <input type = "text" name = "nama" id = "" placeholder = "Nama anda!" required />
-        <br />
-        <label for = "email">E-mail : </label>
-        <input type = "email" name = "email" id = "" placeholder = "E-mail anda!" required />
-        <br />
-        <label for = "alamat">Alamat : </label>
-        <textarea name = "alamat" id = "" cols = "30" rows = "10"></textarea>
-        <br />
-        <input type = "submit" name = "kirim" value = "kirim" id = "" />
-    </fieldset>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>tentangbuah.com - Kontak !</title>
+        <link rel="stylesheet" href="../style.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                <header>
+                    <nav>
+                        <img src="../images/buah.png" alt="logo" />
+                        <h1>tentangbuah.com</h1>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li>
+                                Buah
+                                <ul>
+                                    <li><a href="apel.html">Apel</a></li>
+                                    <li><a href="jeruk.html">Jeruk</a></li>
+                                    <li><a href="mangga.html">Mangga</a></li>
+                                    <li><a href="pisang.html">Pisang</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Kontak</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <section>
+                    <fieldset>
+                        <legend>Informasi Pemesanan</legend>
+                        <label for="nama">Nama : </label>
+                        <input
+                            type="text"
+                            name="nama"
+                            id=""
+                            placeholder="Nama anda!"
+                            required
+                        />
+                        <br />
+                        <label for="email">E-mail : </label>
+                        <input
+                            type="email"
+                            name="email"
+                            id=""
+                            placeholder="E-mail anda!"
+                            required
+                        />
+                        <br />
+                        <label for="alamat">Alamat : </label>
+                        <textarea
+                            name="alamat"
+                            id=""
+                            cols="30"
+                            rows="10"
+                        ></textarea>
+                        <br />
+                        <input type="submit" name="kirim" value="kirim" id="" />
+                    </fieldset>
+                </section>
+                <footer>
+                    <p>
+                        <i class="fa fa-copyright" aria-hidden="true"
+                            >created by: smkrevit.com</i
+                        >
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </body>
 </html>
