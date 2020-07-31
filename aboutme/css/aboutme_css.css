@@ -69,7 +69,7 @@ body {
     border: 1px solid black;
     background: #616161;
     flex: 1;
-    margin: 20px 20px 0px 0px;
+    margin: 20px 20px 20px 0px;
     padding: 20px;
 }
 
@@ -87,6 +87,10 @@ body {
     padding: 20px;
     border-top: 2px solid black;
     color: white;
+}
+
+article footer {
+    text-align: right;
 }
 
 a {
